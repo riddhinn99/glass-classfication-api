@@ -4,8 +4,16 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+flask = "*"
+pandas = "*"
+joblib = "*"
+sklearn = "*"
 
 [dev-packages]
+black = "*"
 
 [requires]
 python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
